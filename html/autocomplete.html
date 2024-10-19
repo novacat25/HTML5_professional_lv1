@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>autocomplete</title>
+</head>
+<body>
+    <form action="" method="get" autocomplete="off">
+        <p><label>Full Name <input type="text" name="name" id="name"></label></p>
+        <p><label>Email <input type="text" name="e-mail" autocomplete="email"></label></p>
+        <p><label>Postal-code <input type="text" name="postal-code" autocomplete="postal-code"></label></p>
+        <p><label>Tel <input type="text" name="tel" autocomplete="tel"></label></p>
+        <p><label>Job <select name="job" autocomplete="off">
+            <option value="value1">Engineer</option>
+            <option value="value1">Designer</option>
+            <option value="value1">Student</option>
+        </select></label></p>
+        <p><label for="textarea">Opinion</label>
+        <textarea id="textarea" name="comment"></textarea>
+        </p>
+        <p>
+            <label for="cc-number">Enter your credit card number</label>
+            <input name="cc-number" id="cc-number" autocomplete="off" />
+        </p>
+        <button type="submit" value="subscribe">Send</button>
+    </form>
+</body>
+</html>
