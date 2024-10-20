@@ -17,14 +17,14 @@ You can summerize on md files what you learned with writing markdown files.
 </html>
 ```
 
-2. Line Spacing
+2. Line Spacing  
 (First line with two spaces after.)
 
-## Preview
-cmd + shift + v
-
-3. Linking
+3. Linking  
 [NovaCat Github](https://www.github.com/novacat25)
+
+## Preview
+`cmd + shift + v`
 
 ## Reference
 https://www.markdownguide.org/basic-syntax/  
