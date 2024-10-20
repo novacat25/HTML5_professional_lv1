@@ -1,5 +1,4 @@
 # Description
----
 To exercise, and practice using Markdown.
 You can summerize on md files what you learned with writing markdown files.
 
