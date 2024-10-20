@@ -17,6 +17,8 @@ You can summerize on md files what you learned with writing markdown files.
     </body>
 </html>
 ```
+## Preview
+cmd + shift + v
 
 ## Reference
 https://www.markdownguide.org/basic-syntax/
