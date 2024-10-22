@@ -29,6 +29,32 @@
 - `<section>` tag should always have a heading.  
 - In General, this tag has a title explained as a heading(見出し) tag `<h1> ~ <h6>` and a content.
 
+## ETC
+- It is allowed to use `<header>` or `<footer>` in a multiple time.  
+(EX)  
+```
+<header>
+    <nav>
+        <li>Home</li>
+        <li>About</li>
+        <li>Projects</li>                
+    </nav>
+</header>
+<article>
+    <header>
+        <h3>NovaCat News</h3>
+     </header>
+    <p>
+        NovaCat get passed on HTML5 Professional Level.1!
+    </p>
+    <footer>
+        Admin: NovaCat
+    </footer>
+  </article>
+<footer>
+2024 Copyright
+</footer>
+```
 
 # Reference
 <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/section>
