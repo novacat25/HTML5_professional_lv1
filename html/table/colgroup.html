@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Colgroup</title>
+    <style>
+        .type {
+            background-color: yellow;
+        }
+
+        .name {
+            background-color: yellowgreen;
+        }
+
+        .damage {
+            background-color: pink;
+        }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <caption>
+            Pokemon Movements
+        </caption>
+        <colgroup class="type" span="1"></colgroup>
+        <colgroup class="name" span="1"></colgroup>
+        <colgroup class="damage" span="1"></colgroup>
+        <tr>
+            <th>Type</th>
+            <th>Move Name</th>
+            <th>Damage</th>
+        </tr>
+        <tr>
+            <td>Fire</td>
+            <td>Fire Punch</td>
+            <td>75</td>
+        </tr>
+        <tr>
+            <td>Ice</td>
+            <td>Ice Beam</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>Fairy</td>
+            <td>MoonBlast</td>
+            <td>95</td>
+        </tr>
+    </table>
+</body>
+</html>
