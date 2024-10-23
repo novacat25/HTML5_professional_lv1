@@ -7,6 +7,7 @@ Form
 - autocomplete  
     - on/off  
 - method  
+    - It defines a HTTP method on the form.  
     - get/post  
 - name  
 - novalidate  
