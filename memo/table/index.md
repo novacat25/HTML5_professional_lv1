@@ -10,5 +10,9 @@ About a `<table>` element
     - **t**able **d**ata cell  
     - It is inlcuded in 'Sectioning root'.
 
+## Attributes
+- colspan: X-axis  
+- rowspan: Y-axis  
+
 ### Grouping
 **thead - tbody - tfoot**
