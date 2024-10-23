@@ -14,9 +14,13 @@ The range is from `<html>` to `</html>`.
 </html>
 ```
 
+# Attributes
+- xmlns  
+Default value is  "http://www.w3.org/1999/xhtml"
+
 ## Description
 **DOCTYPE**
-This is written on the first line of HTML documents.
+To decleare that 「this is written on the first line of HTML documents」.
 
 * HTML5(HTML standard)
 `<!DOCTYPE html>`

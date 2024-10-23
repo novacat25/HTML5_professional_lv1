@@ -1,5 +1,6 @@
 # Description
-The role of `<meta>` tag
+- The role of `<meta>` tag  
+- Normally it is included in `<head>` tag.
 
 ## Elements
 - name: declare metadata  
