@@ -12,3 +12,41 @@ Form
 - name  
 - novalidate  
 - target
+
+## input type  
+### Text
+- text(default)  
+- search
+- number
+
+### Data type
+- tel  
+- url  
+- email  
+- password  
+
+### Date/Time  
+There is no 'year' type.  
+- date  
+- datetime(UTC)  
+- datetime-local  
+- time  
+- month  
+- week  
+
+### Design
+- color  
+
+### Interactive  
+- checkbox  
+- radio  
+- button  
+
+### Related to a method
+- submit  
+- reset    
+- image
+
+### ETC 
+- file   
+- hidden
