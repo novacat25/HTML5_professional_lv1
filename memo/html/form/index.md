@@ -50,3 +50,7 @@ There is no 'year' type.
 ### ETC 
 - file   
 - hidden
+
+## Validation  
+- Use a regex on an attribute 'pattern'.  
+`<input type="text" pattern="\d{2,4}-\d{2,4}-\d{3,4}" maxlength=13">`  
