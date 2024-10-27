@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About a phrasing</title>
+</head>
+<body>
+<article id="quote_article">
+    <header>
+        <h1>A difference between a cafe latte and a cappuccino</h1>
+        <time datetime="2024-10-27">Released: 2024/10/27</time>
+    </header>
+    <p>This cafe servicies coffees: Latte, and Cappuccino.</p>
+    <p>In our store, we put a little bit of cinnamon in cappucinos.</p>
+    <blockquote cite="https://www.example.com">
+        <p>In general, traditional Cappucino has an even distribution of espresso, steamed milk, and foamed milk. By the way, in a latte, the espresso and steamed milk are mixed together.</p>
+    </blockquote>
+</article>
+<hr />
+<div id="list_examples">
+    <h1>An example about lists</h1>
+    <h2>OL: an ordered list</h2>
+    <ol>
+        <li>Mix flour, baking powder, sugar, and salt.</li>
+        <li>In another bowl, mix eggs, milk, and oil.</li>
+        <li>Stir both mixtures together.</li>
+        <li>Fill muffin tray 3/4 full.</li>
+        <li>Bake for 20 minutes.</li>
+    </ol>      
+    <ol type="i">
+        <li>Introduction</li>
+        <li>List of Grievances</li>
+        <li>Conclusion</li>
+    </ol>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>List of Grievances</li>
+        <li>Conclusion</li>
+    </ol>    
+    <p>Choose what this cat meme is called.</p>
+    <ol type="A">
+        <li>Oiia Oiia</li>
+        <li>Pop Cat</li>
+        <li>Huh Cat</li>
+        <li>Banana Cat</li>
+        <li>Apple cat</li>
+    </ol>          
+    <p>Choose what this cat meme is called.(li value)</p>
+    <ol type="A">
+        <li>Oiia Oiia</li>
+        <li>Pop Cat</li>
+        <li>Huh Cat</li>
+        <li value="4">Banana Cat</li>
+        <li value="4">Apple cat</li>
+    </ol>       
+    <p>Choose what this cat meme is called.(reversed)</p>
+    <ol type="A" reversed>
+        <li>Oiia Oiia</li>
+        <li>Pop Cat</li>
+        <li>Huh Cat</li>
+        <li>Banana Cat</li>
+        <li>Apple cat</li>
+    </ol>    
+    <p>Finishing places of contestants not in the winners' circle:</p>
+    <ol start="4">
+      <li>Speedwalk Stu</li>
+      <li>Saunterin' Sam</li>
+      <li>Slowpoke Rodriguez</li>
+    </ol>    
+    <ol>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- closing </li> tag is not here! -->
+          <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+          </ol>
+        </li>
+        <!-- Here's the closing </li> tag -->
+        <li>third item</li>
+    </ol>    
+    <ol>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- closing </li> tag is not here! -->
+          <ul>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+          </ul>
+        </li>
+        <!-- Here's the closing </li> tag -->
+        <li>third item</li>
+    </ol>        
+    <h2>UL: an unordered list</h2>
+    <ul>
+        <li>Milk</li>
+        <li>
+          Cheese
+          <ul>
+            <li>Blue cheese</li>
+            <li>Feta</li>
+          </ul>
+        </li>
+    </ul>
+    <ul>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- Look, the closing </li> tag is not placed here! -->
+          <ul>
+            <li>second item first subitem</li>
+            <li>
+              second item second subitem
+              <!-- Same for the second nested unordered list! -->
+              <ul>
+                <li>second item second subitem first sub-subitem</li>
+                <li>second item second subitem second sub-subitem</li>
+                <li>second item second subitem third sub-subitem</li>
+              </ul>
+            </li>
+            <!-- Closing </li> tag for the li that
+                        contains the third unordered list -->
+            <li>second item third subitem</li>
+          </ul>
+          <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+    </ul>
+    <ul>
+        <li>first item</li>
+        <li>
+          second item
+          <!-- Look, the closing </li> tag is not placed here! -->
+          <ol>
+            <li>second item first subitem</li>
+            <li>second item second subitem</li>
+            <li>second item third subitem</li>
+          </ol>
+          <!-- Here is the closing </li> tag -->
+        </li>
+        <li>third item</li>
+    </ul> 
+    <dl>
+        <dt>Firefox</dt>
+        <dd>
+          A free, open source, cross-platform, graphical web browser developed by the
+          Mozilla Corporation and hundreds of volunteers.
+        </dd>
+      
+        <!-- Other terms and descriptions -->
+    </dl>       
+</div>
+<hr />
+<p>Using CSS to change the font color is easy.</p>
+<pre><code>
+body {
+  color: red;
+}
+</code></pre>
+<hr />
+<p>You can reach Michael at:</p>
+<ul>
+  <li><a href="https://example.com">Website</a></li>
+  <li><a href="mailto:m.bluth@example.com">Email</a></li>
+  <li><a href="tel:+123456789">Phone</a></li>
+</ul>
+<hr />
+<p>#Anchor</p>
+<ul>
+  <li><a href="#quote_article">Quote article</a></li>
+  <li><a href="#list_examples">List examples</a></li>
+  <li><a href="#text_examples">Text examples</a></li>
+</ul>
+<hr />
+<div id="text_examples">
+<p>
+    <strong>Be careful!</strong>
+    It is prohibited for all people under 20 to bet.
+</p>
+<p>He said, &quot;Do it, <em>RIGHT NOW.</em>&quot;</p>
+<p>She replied, &quot;Wait, was his name <i>Voldemort?</i>&quot;</p>
+</div>
+</body>
+</html>
