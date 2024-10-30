@@ -4,11 +4,11 @@ And, it also includes the 'Embedded Content' like 'embed' or 'audio' too.
 
 # Element items
 ## Paragraph/Paragraphing
-- p  
+- p(A block-level element)  
 - hr(horizontal rule)  
 - div(division)
 - br, wbr  
-- span  
+- span(An inline-level element)  
 - pre  
 
 ## List
@@ -21,6 +21,8 @@ And, it also includes the 'Embedded Content' like 'embed' or 'audio' too.
 - dl:description list    
 - dt:description terms  
 - dd:description details  
+- dfn: definition  
+- abbr: Abbreviation
 
 ## About an image
 - figure & figurecaption
@@ -59,3 +61,5 @@ And, it also includes the 'Embedded Content' like 'embed' or 'audio' too.
 ## Direction
 - bdo  
 - bdi  
+
+# A block-level element? An inline-level element?
