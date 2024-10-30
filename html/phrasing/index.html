@@ -6,7 +6,16 @@
     <title>About a phrasing</title>
 </head>
 <body>
-<article id="quote_article">
+  <header>
+    <p>Anchor link</p>
+    <ul>
+      <li><a href="#quote_article">Quote article</a></li>
+      <li><a href="#list_examples">List examples</a></li>
+      <li><a href="#pre_test">a pre element example</a></li>
+      <li><a href="#text_examples">Text examples</a></li>
+    </ul>  
+  </header>
+  <article id="quote_article">
     <header>
         <h1>A difference between a cafe latte and a cappuccino</h1>
         <time datetime="2024-10-27">Released: 2024/10/27</time>
@@ -16,9 +25,9 @@
     <blockquote cite="https://www.example.com">
         <p>In general, traditional Cappucino has an even distribution of espresso, steamed milk, and foamed milk. By the way, in a latte, the espresso and steamed milk are mixed together.</p>
     </blockquote>
-</article>
-<hr />
-<div id="list_examples">
+  </article>
+  <hr />
+  <div id="list_examples">
     <h1>An example about lists</h1>
     <h2>OL: an ordered list</h2>
     <ol>
@@ -69,32 +78,32 @@
       <li>Slowpoke Rodriguez</li>
     </ol>    
     <ol>
-        <li>first item</li>
-        <li>
-          second item
-          <!-- closing </li> tag is not here! -->
-          <ol>
-            <li>second item first subitem</li>
-            <li>second item second subitem</li>
-            <li>second item third subitem</li>
-          </ol>
-        </li>
-        <!-- Here's the closing </li> tag -->
-        <li>third item</li>
+      <li>first item</li>
+      <li>
+        second item
+        <!-- closing </li> tag is not here! -->
+        <ol>
+          <li>second item first subitem</li>
+          <li>second item second subitem</li>
+          <li>second item third subitem</li>
+        </ol>
+      </li>
+      <!-- Here's the closing </li> tag -->
+      <li>third item</li>
     </ol>    
     <ol>
-        <li>first item</li>
-        <li>
-          second item
-          <!-- closing </li> tag is not here! -->
-          <ul>
-            <li>second item first subitem</li>
-            <li>second item second subitem</li>
-            <li>second item third subitem</li>
-          </ul>
-        </li>
-        <!-- Here's the closing </li> tag -->
-        <li>third item</li>
+      <li>first item</li>
+      <li>
+        second item
+        <!-- closing </li> tag is not here! -->
+        <ul>
+          <li>second item first subitem</li>
+          <li>second item second subitem</li>
+          <li>second item third subitem</li>
+        </ul>
+      </li>
+      <!-- Here's the closing </li> tag -->
+      <li>third item</li>
     </ol>        
     <h2>UL: an unordered list</h2>
     <ul>
@@ -108,82 +117,86 @@
         </li>
     </ul>
     <ul>
-        <li>first item</li>
-        <li>
-          second item
-          <!-- Look, the closing </li> tag is not placed here! -->
-          <ul>
-            <li>second item first subitem</li>
-            <li>
-              second item second subitem
-              <!-- Same for the second nested unordered list! -->
-              <ul>
-                <li>second item second subitem first sub-subitem</li>
-                <li>second item second subitem second sub-subitem</li>
-                <li>second item second subitem third sub-subitem</li>
-              </ul>
-            </li>
-            <!-- Closing </li> tag for the li that
-                        contains the third unordered list -->
-            <li>second item third subitem</li>
-          </ul>
-          <!-- Here is the closing </li> tag -->
-        </li>
-        <li>third item</li>
+      <li>first item</li>
+      <li>
+        second item
+        <!-- Look, the closing </li> tag is not placed here! -->
+        <ul>
+          <li>second item first subitem</li>
+          <li>
+            second item second subitem
+            <!-- Same for the second nested unordered list! -->
+            <ul>
+              <li>second item second subitem first sub-subitem</li>
+              <li>second item second subitem second sub-subitem</li>
+              <li>second item second subitem third sub-subitem</li>
+            </ul>
+          </li>
+          <!-- Closing </li> tag for the li that
+                      contains the third unordered list -->
+          <li>second item third subitem</li>
+        </ul>
+        <!-- Here is the closing </li> tag -->
+      </li>
+      <li>third item</li>
     </ul>
     <ul>
-        <li>first item</li>
-        <li>
-          second item
-          <!-- Look, the closing </li> tag is not placed here! -->
-          <ol>
-            <li>second item first subitem</li>
-            <li>second item second subitem</li>
-            <li>second item third subitem</li>
-          </ol>
-          <!-- Here is the closing </li> tag -->
-        </li>
-        <li>third item</li>
+      <li>first item</li>
+      <li>
+        second item
+        <!-- Look, the closing </li> tag is not placed here! -->
+        <ol>
+          <li>second item first subitem</li>
+          <li>second item second subitem</li>
+          <li>second item third subitem</li>
+        </ol>
+        <!-- Here is the closing </li> tag -->
+      </li>
+      <li>third item</li>
     </ul> 
     <dl>
-        <dt>Firefox</dt>
-        <dd>
-          A free, open source, cross-platform, graphical web browser developed by the
-          Mozilla Corporation and hundreds of volunteers.
-        </dd>
-      
-        <!-- Other terms and descriptions -->
+      <dt>Firefox</dt>
+      <dd>
+        A free, open source, cross-platform, graphical web browser developed by the
+        Mozilla Corporation and hundreds of volunteers.
+      </dd>
+    
+      <!-- Other terms and descriptions -->
     </dl>       
-</div>
-<hr />
-<p>Using CSS to change the font color is easy.</p>
-<pre><code>
-body {
-  color: red;
-}
-</code></pre>
-<hr />
-<p>You can reach Michael at:</p>
-<ul>
-  <li><a href="https://example.com">Website</a></li>
-  <li><a href="mailto:m.bluth@example.com">Email</a></li>
-  <li><a href="tel:+123456789">Phone</a></li>
-</ul>
-<hr />
-<p>#Anchor</p>
-<ul>
-  <li><a href="#quote_article">Quote article</a></li>
-  <li><a href="#list_examples">List examples</a></li>
-  <li><a href="#text_examples">Text examples</a></li>
-</ul>
-<hr />
-<div id="text_examples">
-<p>
-    <strong>Be careful!</strong>
-    It is prohibited for all people under 20 to bet.
-</p>
-<p>He said, &quot;Do it, <em>RIGHT NOW.</em>&quot;</p>
-<p>She replied, &quot;Wait, was his name <i>Voldemort?</i>&quot;</p>
-</div>
+  </div>
+  <hr />
+  <div id="pre_test">
+    <p>Using CSS to change the font color is easy.</p>
+    <pre>
+      <code>
+        body {
+          color: red;
+        }
+      </code>
+    </pre>
+  </div>
+  <hr />
+  <p>You can reach Michael at:</p>
+  <ul>
+    <li><a href="https://example.com">Website</a></li>
+    <li><a href="mailto:m.bluth@example.com">Email</a></li>
+    <li><a href="tel:+123456789">Phone</a></li>
+  </ul>
+  < hr />
+  <div id="text_examples">
+    <h1>Here is a space for testing text samples.</h1>
+    <p>
+      <strong>Be careful!</strong>
+      It is prohibited for all people under 20 to bet.
+    </p>
+    <p>He said, &quot;Do it, <em>RIGHT NOW.</em>&quot;</p>
+    <p>She replied, &quot;Wait, was his name <i>Voldemort?</i>&quot;</p>
+    <p>This ball is <s>4 dollars</s> 3 dollars.</p>
+    <p>How to make a different taste: put <u>a drop of lemon</u> on your coffee.</p>
+    <hr />
+  </div>
+  <footer>
+    <small>&copy;2024 NovaCat Copyright Reserved.</small>
+  </footer>
 </body>
 </html>
