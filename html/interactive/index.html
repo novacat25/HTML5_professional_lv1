@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Contents</title>
+</head>
+<body>
+    <details>
+        <summary>Default Details</summary>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </details>
+    <details open>
+        <summary>Opened Details</summary>
+        <ul>
+            <li>a</li>
+            <li>b</li>
+            <li>c</li>
+        </ul>
+    </details>
+    <menu>
+        <li><button>Clear</button></li>
+        <li><button>Submit</button></li>
+        <li><button>Delete</button></li>
+    </menu>
+    <dialog id="dialog">
+        <p>Hello world! A modal has been opened.</p>
+        <button type="button" onclick="document.getElementById('dialog').close()">
+            Close me
+        </button>
+    </dialog>
+    <button type="button" onclick="document.getElementById('dialog').show()">
+        Open me
+    </button>
+</body>
+</html>
