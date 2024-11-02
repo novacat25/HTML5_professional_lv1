@@ -6,7 +6,23 @@
     <title>Form</title>
 </head>
 <body>
+	  <div>
+      <h2>Form elements</h2>
+      <meter value="37" min="0" max="100">37%</meter>
+      <h3>Fieldset</h3>
+      <fieldset>
+        <legend>Customer information</legend>
+        <label for="customer_name">Name</label><input name="customer_name" placeholder="John Doe" />
+        <label for="customer_address">Address</label><input name="customer_address" placeholder="Tokyo" />
+      </fieldset>
+      <fieldset disabled>
+        <legend>Pet information&nbsp;(Invalid)&nbsp;</legend>
+        <label for="pet_name">Name</label><input name="pet_name" placeholder="Joe" />
+        <label for="pet_age">Age</label><input name="pet_age" placeholder="12" />
+      </fieldset>
+    </div>
     <form action="" method="get" class="form-example">
+        <h2>An example for basic form input elements.</h2>
         <div class="form-example">
           <label for="name">Enter your name: </label>
           <input type="text" name="name" id="name" required />

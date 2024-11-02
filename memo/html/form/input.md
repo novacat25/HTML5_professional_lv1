@@ -41,3 +41,8 @@ text, button, color, etc
 - name
 - placeholder
 - value
+
+## Fieldset
+- `<label>` element makes the title of a fieldset.
+- form: It can connect form id with this attribute.  
+- disabled(boolean attribute)
