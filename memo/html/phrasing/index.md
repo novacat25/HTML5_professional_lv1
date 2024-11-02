@@ -41,9 +41,11 @@ And, it also includes the 'Embedded Content' like 'embed' or 'audio' too.
 - s  
 - cite  
 - q  
+    - cite: reference  
 - about a definition  
     - def
     - abbr
+- kbd: keyboard  
 - sup, sub
 - ins, del  
 
