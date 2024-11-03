@@ -6,19 +6,93 @@
     <title>Form</title>
 </head>
 <body>
-	  <div>
+	  <div class="form-elements">
       <h2>Form elements</h2>
       <meter value="37" min="0" max="100">37%</meter>
+      <label for="character-category">Choose your character class:</label>
+      <input list="characters-list" id="character-category" name="character-category" />
+      <datalist id="characters-list">
+        <option value="Warrior"></option>
+        <option value="Magician"></option>
+        <option value="Supporter"></option>
+        <option value="Archery"></option>
+        <option value="Paladin"></option>
+      </datalist>
       <h3>Fieldset</h3>
       <fieldset>
         <legend>Customer information</legend>
         <label for="customer_name">Name</label><input name="customer_name" placeholder="John Doe" />
         <label for="customer_address">Address</label><input name="customer_address" placeholder="Tokyo" />
+        <br />
+        <label for="blood_type">Blood Type</label>
+        <label for="pet-select">Choose a pet:</label>
+        <select name="pets" id="pet-select">
+          <option value="">--Please choose an option--</option>
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="hamster">Hamster</option>
+          <option value="parrot">Parrot</option>
+          <option value="spider">Spider</option>
+          <option value="goldfish">Goldfish</option>
+        </select>        
+        <br />
+        <label for="hr-select">Your favorite food</label> <br />
+        <select name="foods" id="hr-select">
+          <option value="">Choose a food</option>
+          <hr />
+          <optgroup label="Fruit">
+            <option value="apple">Apples</option>
+            <option value="banana">Bananas</option>
+            <option value="cherry">Cherries</option>
+            <option value="damson">Damsons</option>
+          </optgroup>
+          <hr />
+          <optgroup label="Vegetables">
+            <option value="artichoke">Artichokes</option>
+            <option value="broccoli">Broccoli</option>
+            <option value="cabbage">Cabbages</option>
+          </optgroup>
+          <hr />
+          <optgroup label="Meat">
+            <option value="beef">Beef</option>
+            <option value="chicken">Chicken</option>
+            <option value="pork">Pork</option>
+          </optgroup>
+          <hr />
+          <optgroup label="Fish">
+            <option value="cod">Cod</option>
+            <option value="haddock">Haddock</option>
+            <option value="salmon">Salmon</option>
+            <option value="turbot">Turbot</option>
+          </optgroup>
+        </select>        
+      </fieldset>
+      <fieldset>
+        <legend>Comments</legend>
+        <textarea rows="5" cols="45" placeholder="Leave your comments..."></textarea>
       </fieldset>
       <fieldset disabled>
         <legend>Pet information&nbsp;(Invalid)&nbsp;</legend>
         <label for="pet_name">Name</label><input name="pet_name" placeholder="Joe" />
         <label for="pet_age">Age</label><input name="pet_age" placeholder="12" />
+      </fieldset>
+      <fieldset>
+        <legend>Choose a type of your weapon</legend>
+        <input type="radio" id="fire" name="element-type" value="F" />
+        <label for="fire">Fire</label><br />
+        <input type="radio" id="ice" name="element-type" value="I" />
+        <label for="ice">Ice</label><br />
+        <input type="radio" id="electric" name="element-type" value="E" />
+        <label for="electric">Electric</label>
+      </fieldset>
+      <fieldset>
+        <legend>Set the popular hours</legend>
+        <input type="time" list="popularHours" />
+        <datalist id="popularHours">
+          <option value="12:00"></option>
+          <option value="13:00"></option>
+          <option value="14:00"></option>
+        </datalist>
       </fieldset>
     </div>
     <form action="" method="get" class="form-example">
@@ -31,10 +105,19 @@
           <label for="email">Enter your email: </label>
           <input type="email" name="email" id="email" required />
         </div>
+        <div class="checkboxes-sample">
+          <!-- define the name of input, and include in the label element. -->
+          <label>
+            <input type="checkbox" name="agree_policy" />
+            I agree to the Mock Policy.
+          </label>
+          <!-- pair label by adding a 'for' attribute which is same with the id of input. -->
+          <input type="checkbox" name="agree_terms" id="agree_terms" />
+          <label for="agree_terms">I agree to the Mock terms.</label>
+      </div>
         <div class="form-example">
           <input type="submit" value="Subscribe!" />
         </div>
       </form>
-      
 </body>
 </html>
