@@ -116,3 +116,7 @@ There is no 'year' type.
 - select vs datalist
     - Datalist is for a suggest of the input.
     - Select is for choosing a value of input.
+
+## ETC
+### keygen
+- It is deprecated in HTML5.
