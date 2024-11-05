@@ -8,6 +8,18 @@
 - Box and table
 - Flex
 - transform
--animation
+- animation
 - contents
 - Responsible Design
+
+# CSS Structure
+```  
+p {   
+    color: blue;  
+}  
+```  
+  
+- selector
+- attribute
+- property
+- value
