@@ -6,8 +6,23 @@
 
 ### Picture
 - `<img>`  
+    - src
+    - width, height
+    - alt: alternative
+    - fetchpriority
+    - loading
+        - lazy
+        - eager
 - `<picture>`  
 - `<svg>`  
+
+#### Image formats
+- PNG(Portable Network Graphics)
+- JPEG(Joint Graphic Expert Group image)
+- GIF(Graphics Interchange Format)
+- WebP(Web Picture format)
+- SVG(Scalable Vector Graphics)
+- APNG, AVIF
 
 ### Audio / Video
 - `<source>`  
