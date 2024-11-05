@@ -1,5 +1,6 @@
 # Description
-**C**ascading **S**tyle **S**heets
+**C**ascading **S**tyle **S**heets  
+It's rule is to make HTML documents readable, prettier, and more gorgeous.
 
 # Guideline Tree
 - Selector
@@ -20,6 +21,8 @@ p {
 ```  
   
 - selector
-- attribute
-- property
-- value
+- [attribute]
+- a set of curly braces
+- declarations
+    - property
+    - value
