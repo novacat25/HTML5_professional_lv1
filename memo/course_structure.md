@@ -22,4 +22,4 @@
 - Contents  
 - Basic knowledge of CSS
 
-# Responsible Design
+# Responsive Design
