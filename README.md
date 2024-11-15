@@ -2,8 +2,7 @@
 This repository is for studying HTML5 Professional Certification Level 1.
 
 # Goal
-To study all courses of the certification until 2024/11/13.
-Then, I will try the certification exam!
+To Finish all courses of the certification, and to take the exam on 2024 Dec.
 
 ## Commit rules
 1. As soon as possible, do commit every day even though I didn't study for a long time. STEADY is the best way to achieve goals!
